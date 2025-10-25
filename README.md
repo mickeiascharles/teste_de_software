@@ -6,6 +6,6 @@ instalar modulos:<br>
 npm init -y<br>
 npm install --save-dev jest<br>
 
-execução:
-/EX1/
-npm test
+execução:<br>
+/EX1/<br>
+npm test<br>
