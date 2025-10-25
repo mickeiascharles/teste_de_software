@@ -1,5 +1,6 @@
 # teste_de_software
-Comandos de funcionamento 
+Comandos de funcionamento
+
 instalar modulos:
 /EX1/
 npm init -y
