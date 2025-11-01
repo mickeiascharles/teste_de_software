@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-01T12:18:21.064757" rpa="false" schemaversion="5">
+<suite id="s1" name="Auto" source="C:\Users\charl\OneDrive\Área de Trabalho\Faculdade\Terceiro Semestre\Teste de Software\01-11\Robot Framework\auto.robot">
+<test id="s1-t1" name="Executa metodo faz_algo definido em myrobot" line="5">
+<kw name="Faz Algo" owner="myrobot">
+<msg time="2025-11-01T12:18:21.179306" level="INFO">Executando uma tarefa simples...</msg>
+<msg time="2025-11-01T12:18:21.179470" level="INFO">${status} = ok</msg>
+<var>${status}</var>
+<status status="PASS" start="2025-11-01T12:18:21.179072" elapsed="0.000447"/>
+</kw>
+<status status="PASS" start="2025-11-01T12:18:21.177802" elapsed="0.002118"/>
+</test>
+<test id="s1-t2" name="Executa metodo faz_algo e verifica_resultado" line="8">
+<kw name="Faz Algo e Confirma Que Deu Certo">
+<kw name="Faz Algo" owner="myrobot">
+<msg time="2025-11-01T12:18:21.182368" level="INFO">Executando uma tarefa simples...</msg>
+<msg time="2025-11-01T12:18:21.182506" level="INFO">${status} = ok</msg>
+<var>${status}</var>
+<status status="PASS" start="2025-11-01T12:18:21.182159" elapsed="0.000386"/>
+</kw>
+<kw name="Verifica Resultado" owner="myrobot">
+<arg>${status}</arg>
+<arg>ok</arg>
+<status status="PASS" start="2025-11-01T12:18:21.182709" elapsed="0.000226"/>
+</kw>
+<status status="PASS" start="2025-11-01T12:18:21.181657" elapsed="0.001383"/>
+</kw>
+<status status="PASS" start="2025-11-01T12:18:21.180706" elapsed="0.002707"/>
+</test>
+<status status="PASS" start="2025-11-01T12:18:21.068491" elapsed="0.116091"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Auto" id="s1" pass="2" fail="0" skip="0">Auto</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
